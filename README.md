@@ -1,110 +1,38 @@
 <!--
-  Thalita’s Cleaning — README (Top-tier / senior)
-  Theme: pink + white + florals
-  Author: Dangelo Marques (GitHub: danmarques127-sys)
+  Thalita’s Cleaning — README (Top-tier / Senior)
+  Theme: Pink + White + Florals
+  Author: DaNgelo Marques (GitHub: danmarques127-sys)
 -->
 
-<div align="center">
-
-<!-- ====== HERO (SVG) ====== -->
-<svg width="100%" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thalita’s Cleaning banner">
-  <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="35%" stop-color="#ffe6f1"/>
-      <stop offset="100%" stop-color="#ff5aa5"/>
-    </linearGradient>
-    <filter id="softShadow" x="-20%" y="-30%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#ff5aa5" flood-opacity="0.22"/>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="240" rx="26" fill="url(#grad)"/>
-  <!-- subtle petals -->
-  <g opacity="0.18">
-    <circle cx="110" cy="65" r="26" fill="#ff5aa5"/>
-    <circle cx="146" cy="85" r="18" fill="#ff5aa5"/>
-    <circle cx="88" cy="98" r="14" fill="#ff5aa5"/>
-    <circle cx="1030" cy="70" r="22" fill="#ff5aa5"/>
-    <circle cx="1064" cy="96" r="14" fill="#ff5aa5"/>
-    <circle cx="1005" cy="102" r="12" fill="#ff5aa5"/>
-  </g>
-
-  <!-- main card -->
-  <g filter="url(#softShadow)">
-    <rect x="90" y="54" width="1020" height="132" rx="22" fill="#ffffff" opacity="0.92"/>
-  </g>
-
-  <!-- flower icon -->
-  <g transform="translate(125,92)">
-    <g>
-      <circle cx="20" cy="20" r="8" fill="#ff5aa5"/>
-      <circle cx="20" cy="2" r="10" fill="#ff8bc1"/>
-      <circle cx="35" cy="10" r="10" fill="#ff8bc1"/>
-      <circle cx="38" cy="26" r="10" fill="#ff8bc1"/>
-      <circle cx="20" cy="38" r="10" fill="#ff8bc1"/>
-      <circle cx="4" cy="26" r="10" fill="#ff8bc1"/>
-      <circle cx="6" cy="10" r="10" fill="#ff8bc1"/>
-      <circle cx="20" cy="20" r="6" fill="#ffffff"/>
-    </g>
-  </g>
-
-  <!-- title -->
-  <text x="205" y="118" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="34" font-weight="800" fill="#1d1d1f">
-    Thalita’s Cleaning
-  </text>
-  <text x="205" y="150" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="600" fill="#6b7280">
-    Production static website • SEO-first • Performance-focused • Accessibility-aware
-  </text>
-
-  <!-- pills -->
-  <g transform="translate(820,104)">
-    <rect x="0" y="0" width="120" height="34" rx="17" fill="#ff5aa5" opacity="0.95"/>
-    <text x="60" y="22" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="13" font-weight="800" fill="#ffffff">
-      PINK/WHITE
-    </text>
-    <rect x="132" y="0" width="158" height="34" rx="17" fill="#111827" opacity="0.92"/>
-    <text x="211" y="22" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="13" font-weight="800" fill="#ffffff">
-      REAL-WORLD
-    </text>
-    <rect x="302" y="0" width="168" height="34" rx="17" fill="#ffffff" stroke="#ff5aa5" stroke-width="2" opacity="0.98"/>
-    <text x="386" y="22" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="13" font-weight="800" fill="#ff5aa5">
-      STATIC • FAST
-    </text>
-  </g>
-</svg>
-
-<br/>
-
-<p>
-  <b>Client-grade static website</b> for a cleaning company — engineered for <b>SEO</b>, <b>speed</b>, and <b>reliability</b> on real hosting (Apache/cPanel).<br/>
-  Built and maintained by <a href="https://github.com/danmarques127-sys"><b>DaNgelo Marques</b></a>.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,35:FFE2F0,70:FF5AA5,100:FFFFFF&height=240&section=header&text=Thalita%E2%80%99s%20Cleaning&fontSize=54&fontColor=111827&animation=fadeIn&fontAlignY=38&desc=Production%20static%20website%20%E2%80%A2%20SEO-first%20%E2%80%A2%20Performance-focused%20%E2%80%A2%20Accessibility-aware&descAlignY=64&descSize=18" />
 </p>
 
-<!-- ====== badges (shields.io) ====== -->
-<p>
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-semantic-ff5aa5?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-responsive-111827?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="JS" src="https://img.shields.io/badge/JavaScript-vanilla-ff8bc1?style=for-the-badge&logo=javascript&logoColor=111827" />
-  <img alt="Apache" src="https://img.shields.io/badge/Apache-.htaccess-ffffff?style=for-the-badge&logo=apache&logoColor=ff5aa5" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=900&color=FF5AA5&center=true&vCenter=true&width=980&lines=Client-grade+static+site+for+a+real+cleaning+business;Engineered+for+SEO%2C+speed%2C+and+reliability+on+Apache%2FcPanel;Pink+%26+White+theme+with+floral+presentation+for+GitHub;No+frameworks.+No+build+step.+Just+clean+delivery." />
 </p>
 
-<!-- ====== animated divider (pure SVG) ====== -->
-<svg width="100%" height="18" viewBox="0 0 1200 18" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true">
-  <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#ff5aa5"/>
-      <stop offset="100%" stop-color="#ffffff"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="8" width="1200" height="2" rx="1" fill="url(#line)"/>
-  <circle cx="60" cy="9" r="4" fill="#ff5aa5">
-    <animate attributeName="cx" values="60;1140;60" dur="6s" repeatCount="indefinite"/>
-  </circle>
-</svg>
+<p align="center">
+  <a href="https://thalitascleaning.com"><img src="https://img.shields.io/badge/Production-Live-FF5AA5?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://danmarques127-sys.github.io/thalitas-cleaning/"><img src="https://img.shields.io/badge/GitHub%20Pages-Preview-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/danmarques127-sys"><img src="https://img.shields.io/badge/Author-DaNgelo%20Marques-FFFFFF?style=for-the-badge&logo=github&logoColor=FF5AA5" /></a>
+</p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Theme-Pink%20%26%20White-FFE2F0?style=for-the-badge&labelColor=FF5AA5&color=FFE2F0" />
+  <img src="https://img.shields.io/badge/Brand-Floral%20Identity-FFFFFF?style=for-the-badge&labelColor=FF5AA5&color=FFFFFF" />
+  <img src="https://img.shields.io/badge/Hosting-Apache%20%2F%20cPanel-111827?style=for-the-badge&logo=apache&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:FF5AA5,100:FFFFFF&height=2&section=header" />
+</p>
+
+## 🌸 Title + One-liner
+
+**Thalita’s Cleaning** — a production-ready static website for a real cleaning company, built with an **SEO-first**, **performance-focused**, and **accessibility-aware** mindset.
+
+> Built and maintained by **DaNgelo Marques** (GitHub: https://github.com/danmarques127-sys)
 
 ---
 
@@ -115,35 +43,40 @@
 
 ---
 
-## ✨ Features (engineering-focused)
+## ✨ Features (3–6)
 
 - **Multi-page static site** with consistent navigation and predictable routes
-- **SEO-first**: semantic HTML, meta/OG tags, robots + sitemap, clean internal linking
-- **Performance**: optimized assets, caching via `.htaccess`, low JavaScript footprint
-- **Accessibility**: semantic landmarks, readable hierarchy, link/button intent clarity
-- **Deployment-friendly**: works on **Apache/cPanel** (no build step), plus **GitHub Pages** preview
+- **SEO-first** structure (semantic HTML, meta/OG tags, robots + sitemap, clean internal linking)
+- **Performance-minded** assets + **cache policy via `.htaccess`** (repeat visits optimized)
+- **Accessibility-aware** layout (semantic landmarks, readable hierarchy, clear intent)
+- **Deployment-friendly** for **Apache/cPanel** and a **GitHub Pages preview** pipeline
 
 ---
 
 ## 🧰 Tech Stack
 
-- **HTML5** (semantic structure for SEO + accessibility)
-- **CSS3** (responsive layout and UI components)
-- **Vanilla JavaScript** (light interactions only)
-- **Apache `.htaccess`** (cache policy + static hosting behavior)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js" />
+  <img alt="Apache" src="https://img.shields.io/badge/Apache-.htaccess-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+</p>
+
+- **HTML5** — semantic structure for SEO + accessibility  
+- **CSS3** — responsive layout and UI components  
+- **Vanilla JavaScript** — lightweight interactions only  
+- **Apache `.htaccess`** — caching + static hosting behavior  
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
-> The structure is intentionally “production static site” — easy to host, easy to maintain.
+> “Production static site” layout — simple, portable, and predictable for real hosting.
 
 /
 ├── assets/
 │   ├── css/        # Stylesheets
 │   ├── js/         # JavaScript
-│   ├── img/        # Images (no nested /images)
-│   └── icons/      # Icons + favicons (no nested /icons)
+│   ├── img/        # Images (flattened; no /images nesting)
+│   └── icons/      # Icons + favicons (flattened; no /icons nesting)
 │
 ├── seo/
 │   ├── robots.txt
@@ -155,79 +88,3 @@
 ├── .htaccess
 ├── index.html
 └── *.html
-
----
-
-## ▶️ Run
-
-- **Production (Live):** https://thalitascleaning.com  
-- **GitHub Pages (Preview):** https://danmarques127-sys.github.io/thalitas-cleaning/
-
----
-
-## 🚀 Deployment
-
-### GitHub Pages (Preview)
-1. Repo → **Settings** → **Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` • Folder: `/ (root)`
-4. Save → wait for the Pages URL
-
-### cPanel / Apache (Production)
-1. Upload files to `public_html/` (or your domain root)
-2. Ensure `.htaccess` is included (Apache must allow overrides)
-3. Confirm `/seo/robots.txt` and `/seo/sitemap.xml` are accessible
-4. Validate internal links and assets on the live domain
-
----
-
-## 🗄️ Cache Policy (via `.htaccess`)
-
-- Static assets (CSS/JS/images/icons) are cached aggressively for repeat visits.
-- HTML is kept with shorter caching to allow fast content iteration without stale pages.
-
----
-
-## 📄 License
-
-**All Rights Reserved** — This repository represents a real client-grade website.  
-No reuse, redistribution, or modification is allowed without explicit permission.
-
----
-
-## 👤 Author
-
-**Dangelo Marques**  
-GitHub: https://github.com/danmarques127-sys
-
----
-
-<div align="center">
-
-<!-- ====== footer flower ====== -->
-<svg width="100%" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true">
-  <defs>
-    <linearGradient id="foot" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#ffe6f1"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="1200" height="110" rx="22" fill="url(#foot)"/>
-
-  <g opacity="0.22">
-    <circle cx="105" cy="55" r="26" fill="#ff5aa5"/>
-    <circle cx="135" cy="55" r="22" fill="#ff8bc1"/>
-    <circle cx="165" cy="55" r="18" fill="#ff5aa5"/>
-    <circle cx="195" cy="55" r="14" fill="#ff8bc1"/>
-  </g>
-
-  <text x="600" y="66" text-anchor="middle"
-    font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
-    font-size="14" font-weight="700" fill="#6b7280">
-    Crafted with care — clean, fast, and search-friendly.
-  </text>
-</svg>
-
-</div>
-
