@@ -1,7 +1,7 @@
 <!--
   Thalita’s Cleaning — README (Top-tier / senior)
   Theme: pink + white + florals
-  Author: DaNgelo Marques (GitHub: danmarques127-sys)
+  Author: Dangelo Marques (GitHub: danmarques127-sys)
 -->
 
 <div align="center">
@@ -138,7 +138,6 @@
 
 > The structure is intentionally “production static site” — easy to host, easy to maintain.
 
-```txt
 /
 ├── assets/
 │   ├── css/        # Stylesheets
@@ -156,4 +155,79 @@
 ├── .htaccess
 ├── index.html
 └── *.html
+
+---
+
+## ▶️ Run
+
+- **Production (Live):** https://thalitascleaning.com  
+- **GitHub Pages (Preview):** https://danmarques127-sys.github.io/thalitas-cleaning/
+
+---
+
+## 🚀 Deployment
+
+### GitHub Pages (Preview)
+1. Repo → **Settings** → **Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main` • Folder: `/ (root)`
+4. Save → wait for the Pages URL
+
+### cPanel / Apache (Production)
+1. Upload files to `public_html/` (or your domain root)
+2. Ensure `.htaccess` is included (Apache must allow overrides)
+3. Confirm `/seo/robots.txt` and `/seo/sitemap.xml` are accessible
+4. Validate internal links and assets on the live domain
+
+---
+
+## 🗄️ Cache Policy (via `.htaccess`)
+
+- Static assets (CSS/JS/images/icons) are cached aggressively for repeat visits.
+- HTML is kept with shorter caching to allow fast content iteration without stale pages.
+
+---
+
+## 📄 License
+
+**All Rights Reserved** — This repository represents a real client-grade website.  
+No reuse, redistribution, or modification is allowed without explicit permission.
+
+---
+
+## 👤 Author
+
+**Dangelo Marques**  
+GitHub: https://github.com/danmarques127-sys
+
+---
+
+<div align="center">
+
+<!-- ====== footer flower ====== -->
+<svg width="100%" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="foot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffe6f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="110" rx="22" fill="url(#foot)"/>
+
+  <g opacity="0.22">
+    <circle cx="105" cy="55" r="26" fill="#ff5aa5"/>
+    <circle cx="135" cy="55" r="22" fill="#ff8bc1"/>
+    <circle cx="165" cy="55" r="18" fill="#ff5aa5"/>
+    <circle cx="195" cy="55" r="14" fill="#ff8bc1"/>
+  </g>
+
+  <text x="600" y="66" text-anchor="middle"
+    font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+    font-size="14" font-weight="700" fill="#6b7280">
+    Crafted with care — clean, fast, and search-friendly.
+  </text>
+</svg>
+
+</div>
 
