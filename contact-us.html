@@ -1,4 +1,4 @@
-<!-- index.html — mobile-enhanced -->
+<!-- contact-us.html — SECURE + CAPTCHA (hCaptcha) + FIXED (no nested HTML) -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,848 +6,453 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Thalita’s Cleaning | Residential & Commercial Cleaning in Massachusetts</title>
-  <meta name="description" content="Family-owned cleaning company serving Greater Boston & Massachusetts. Deep cleaning, recurring, move-in/out, office & post-construction. Request a same-day free estimate." />
+  <title>Request a Free Estimate | Thalita’s Cleaning LLC</title>
+  <meta name="description" content="Request a free cleaning estimate in Massachusetts. We respond within 24 hours. Residential, commercial, deep cleaning, move-in/out, and post-construction." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <link rel="canonical" href="https://thalitascleaning.com/" />
-  <link rel="alternate" href="https://thalitascleaning.com/" hreflang="en" />
-  <meta name="theme-color" content="#B96A7A" />
+  <link rel="canonical" href="https://thalitascleaning.com/contact-us.html" />
+  <link rel="alternate" href="https://thalitascleaning.com/contact-us.html" hreflang="en" />
 
   <!-- ================= SOCIAL META (Open Graph / Twitter) ================= -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Thalita’s Cleaning" />
-  <meta property="og:title" content="Thalita’s Cleaning — Massachusetts" />
-  <meta property="og:description" content="Reliable residential & commercial cleaning. Free quotes." />
-  <meta property="og:url" content="https://thalitascleaning.com/" />
-  <meta property="og:image" content="https://thalitascleaning.com/assets/img/hero1.jpg" />
+  <meta property="og:title" content="Request a Free Estimate | Thalita’s Cleaning" />
+  <meta property="og:description" content="Get a personalized cleaning quote. We respond within 24 hours." />
+  <meta property="og:url" content="https://thalitascleaning.com/contact-us.html" />
+  <meta property="og:image" content="https://thalitascleaning.com/images/hero1.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Thalita’s Cleaning — Massachusetts" />
-  <meta name="twitter:description" content="Reliable residential & commercial cleaning. Free quotes." />
-  <meta name="twitter:image" content="https://thalitascleaning.com/assets/img/hero1.jpg" />
+  <meta name="twitter:title" content="Request a Free Estimate | Thalita’s Cleaning" />
+  <meta name="twitter:description" content="Get a personalized cleaning quote. We respond within 24 hours." />
+  <meta name="twitter:image" content="https://thalitascleaning.com/images/hero1.jpg" />
 
   <!-- ================= PERFORMANCE HINTS ================= -->
-  <link rel="preload" as="image" href="assets/img/hero1.png" />
-  <link rel="preconnect" href="https://maps.geoapify.com" crossorigin>
-  <link rel="preconnect" href="https://unpkg.com" crossorigin>
-  <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
-  <link rel="dns-prefetch" href="//nominatim.openstreetmap.org">
-  <link rel="dns-prefetch" href="//api.geoapify.com">
+  <link rel="preconnect" href="https://js.hcaptcha.com" crossorigin>
 
-<!-- ================= FAVICONS & MANIFEST ================= -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png?v=1">
-<link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64x64.png?v=1">
-<link rel="icon" type="image/png" sizes="128x128" href="assets/icons/favicon-128x128.png?v=1">
-<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=1">
-<link rel="manifest" href="/site.webmanifest">
-
-<!-- ================= BROWSER & GOOGLE META ================= -->
-<meta name="theme-color" content="#ffffff">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/icons/favicon-128x128.png?v=1">
-
-<!-- ================= STRUCTURED DATA (REQUIRED FOR GOOGLE LOGO) ================= -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Thalita's Cleaning LLC",
-  "url": "https://www.thalitascleaning.com",
-  "logo": "https://www.thalitascleaning.com/assets/icons/favicon-128x128.png",
-  "sameAs": [
-    "https://www.instagram.com/thalitascleaning",
-    "https://www.thumbtack.com/ma/lowell/cleaning-services/thalitas-cleaning-services"
-  ]
-}
-</script>
-
+  <!-- ================= FAVICONS & MANIFEST ================= -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64x64.png?v=1">
+  <link rel="icon" type="image/png" sizes="128x128" href="/icons/favicon-128x128.png?v=1">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=1">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/icons/favicon-128x128.png?v=1">
 
   <!-- ================= CSS PRINCIPAL ================= -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- ================= JSON-LD: CleaningService ================= -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CleaningService",
-  "@id": "https://thalitascleaning.com/#business",
-  "name": "Thalita’s Cleaning",
-  "email": "cleaningthalitas@gmail.com",
-  "telephone": "+1-774-581-8037",
-  "image": "https://thalitascleaning.com/assets/img/logo.png",
-  "url": "https://thalitascleaning.com/",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "229 Hudson St",
-    "addressLocality": "Marlborough",
-    "addressRegion": "MA",
-    "postalCode": "01752",
-    "addressCountry": "US"
-  },
-  "areaServed": "Massachusetts",
-  "priceRange": "$$",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    }
-  ],
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=61583193510755",
-    "https://www.instagram.com/cleaningthalitas",
-    "https://www.youtube.com/@ThalitasCleaningLLC",
-    "https://x.com/cleanthalitas",
-    "https://www.thumbtack.com/profile/services/562867959339302929",
-    "mailto:cleaningthalitas@gmail.com"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "57",
-    "itemReviewed": {
-      "@type": "Organization",
-      "name": "Thalita’s Cleaning"
-    }
-  }
-}
-</script>
+  <!-- ================= hCaptcha (CAPTCHA) =================
+    IMPORTANT:
+    1) Create your hCaptcha site (free) and get a Site Key (public) + Secret Key (private).
+    2) Replace YOUR_HCAPTCHA_SITEKEY below with your real site key.
+    NOTE:
+    - hCaptcha token will be included in the form submit.
+    - For REAL enforcement, your form endpoint/service must verify the token server-side.
+      Formspree can do spam protection depending on plan/settings.
+  -->
+  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
-<!-- JSON-LD extra para SEO (WebSite) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "url": "https://thalitascleaning.com/",
-  "name": "Thalita’s Cleaning",
-  "inLanguage": "en"
-}
-</script>
-
-  <!-- JSON-LD extra para SEO (WebSite) -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "url":"https://thalitascleaning.com/",
-    "name":"Thalita’s Cleaning",
-    "inLanguage":"en"
-  }
-  </script>
-
-<style>
-  /* utilitária global para acessibilidade */
-  .sr-only{
-    position:absolute !important;
-    width:1px;
-    height:1px;
-    padding:0;
-    margin:-1px;
-    overflow:hidden;
-    clip:rect(0,0,0,0);
-    white-space:nowrap;
-    border:0;
-  }
-
-  /* lock-scroll quando menu mobile aberto */
-  .no-scroll {
-    overflow:hidden;
-    height:100vh;
-  }
-
-  /* ================= HEADER DESKTOP (rosé) ================= */
-  .topbar {
-    position:sticky;
-    top:0;
-    z-index:9999;
-    background:linear-gradient(180deg,#C16E7A,#A15363);
-    color:#fff;
-    border-bottom:none;
-  }
-
-  .container.header {
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    gap:1rem;
-    padding:0.75rem 1rem;
-    max-width:1100px;
-    margin:0 auto;
-  }
-
-  .brand {
-    display:flex;
-    flex-direction:column;
-    line-height:1.2;
-  }
-
-  .brand img,
-  .brand .logo {
-    max-height:72px;
-    height:auto;
-    width:auto;
-    display:block;
-  }
-
-  /* botão hamburguer (desktop = escondido) */
-  .nav-toggle {
-    background:#fff;
-    border:1px solid #cbd5e1;
-    border-radius:6px;
-    padding:.5rem .6rem;
-    cursor:pointer;
-    line-height:0;
-    display:none;
-  }
-  .nav-toggle .bar{
-    display:block;
-    width:22px;
-    height:2px;
-    background:#0f172a;
-    margin:4px 0;
-    border-radius:1px;
-  }
-
-  /* NAV DESKTOP */
-  #site-nav.nav {
-    display:flex;
-    align-items:flex-start;
-    gap:1rem;
-    flex-wrap:nowrap;
-    font-family:system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-    font-size:.9rem;
-    line-height:1.4;
-    background:transparent;
-    border:none;
-    box-shadow:none;
-    border-radius:0;
-    width:auto;
-    position:static;
-  }
-
-  .nav-list {
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    gap:1rem 1.25rem;
-    list-style:none;
-    margin:0;
-    padding:0;
-  }
-
-  .nav-list > li > a{
-    text-decoration:none;
-    color:#fff;
-    font-weight:600;
-    display:inline-flex;
-    align-items:center;
-    gap:.4rem;
-  }
-  .nav-list > li > a:hover{
-    color:#fff;
-    text-decoration:underline;
-  }
-
-  .has-dropdown{
-    position:relative;
-  }
-  .has-dropdown > .dropdown{
-    position:absolute;
-    top:100%;
-    left:0;
-    background:#fff;
-    border:1px solid #e5e7eb;
-    border-radius:8px;
-    padding:.5rem .75rem;
-    list-style:none;
-    min-width:180px;
-    box-shadow:0 20px 40px rgba(0,0,0,.08);
-    display:none;
-    z-index:2000;
-  }
-  .has-dropdown:hover > .dropdown{
-    display:block;
-  }
-  .has-dropdown > .dropdown li a{
-    color:#0f172a;
-    font-weight:500;
-    text-decoration:none;
-    display:block;
-    padding:.4rem 0;
-  }
-  .has-dropdown > .dropdown li a:hover{
-    text-decoration:underline;
-  }
-
-  /* CTA "Request a Free Estimate" no header - DESKTOP */
-  .call-cta.btn {
-    white-space:nowrap;
-    font-weight:700;
-    line-height:1.2;
-    background:#fff;
-    color:#C16E7A !important;
-    border:2px solid #C16E7A;
-    border-radius:999px;
-    box-shadow:0 4px 10px rgba(0,0,0,.08);
-    padding:12px 20px;
-    text-decoration:none;
-    display:inline-block;
-    transition:all .25s ease;
-  }
-  .call-cta.btn:hover{
-    background:#A15363;
-    color:#fff !important;
-    border-color:#A15363;
-    text-decoration:none;
-    box-shadow:0 8px 20px rgba(0,0,0,.18);
-  }
-
-  /* =================== MOBILE OVERRIDES (<=768px) =================== */
-  @media(max-width:768px){
-
-    /* header layout no mobile */
-    .container.header{
-      align-items:flex-start;
+  <style>
+    /* utilitária global para acessibilidade */
+    .sr-only{
+      position:absolute !important;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
     }
 
-    /* mostra hambúrguer */
-    .nav-toggle{
-      display:block;
-      order:2;
-      min-width:44px;
-      min-height:44px;
+    /* lock-scroll quando menu mobile aberto */
+    .no-scroll { overflow:hidden; height:100vh; }
+
+    /* ================= HEADER (copiado do seu padrão) ================= */
+    .topbar {
+      position:sticky;
+      top:0;
+      z-index:9999;
+      background:linear-gradient(180deg,#C16E7A,#A15363);
+      color:#fff;
+      border-bottom:none;
     }
 
-    /* nav vira card branco suspenso */
-    #site-nav.nav{
-      order:3;
-      flex-direction:column;
-      width:100%;
-      border:1px solid #e5e7eb;
-      border-radius:12px;
-      padding:1rem;
-      background:#fff;
-      box-shadow:0 18px 32px rgba(0,0,0,.08);
-      display:none;
-      position:static;
-      max-height:70vh;
-      overflow-y:auto;
-    }
-
-    /* estado aberto via JS (.is-open) — ALINHADO COM style.css e script.js */
-    #site-nav.nav.is-open{
+    .container.header {
       display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:1rem;
+      padding:0.75rem 1rem;
+      max-width:1100px;
+      margin:0 auto;
+    }
+
+    .brand { display:flex; flex-direction:column; line-height:1.2; }
+
+    .brand img, .brand .logo{
+      max-height:72px;
+      height:auto;
+      width:auto;
+      display:block;
+    }
+
+    .nav-toggle{
+      background:#fff;
+      border:1px solid #cbd5e1;
+      border-radius:6px;
+      padding:.5rem .6rem;
+      cursor:pointer;
+      line-height:0;
+      display:none;
+    }
+    .nav-toggle .bar{
+      display:block;
+      width:22px;
+      height:2px;
+      background:#0f172a;
+      margin:4px 0;
+      border-radius:1px;
+    }
+
+    #site-nav.nav{
+      display:flex;
+      align-items:flex-start;
+      gap:1rem;
+      flex-wrap:nowrap;
+      font-family:system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      font-size:.9rem;
+      line-height:1.4;
+      background:transparent;
+      border:none;
+      box-shadow:none;
+      border-radius:0;
+      width:auto;
+      position:static;
     }
 
     .nav-list{
-      flex-direction:column;
-      align-items:flex-start;
-      gap:.75rem;
-      width:100%;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:1rem 1.25rem;
+      list-style:none;
+      margin:0;
+      padding:0;
     }
 
     .nav-list > li > a{
-      color:#0f172a;
+      text-decoration:none;
+      color:#fff;
       font-weight:600;
-      font-size:1rem;
-      padding:.5rem 0;
-      width:100%;
-      justify-content:space-between;
-    }
-
-    /* mobile: submenu fechado por padrão */
-    .has-dropdown > .dropdown{
-      position:static;
-      border:none;
-      border-radius:0;
-      box-shadow:none;
-      padding:0 .75rem .5rem;
-      display:none;
-      background:#fff;
-      min-width:auto;
-    }
-
-    /* mobile: quando o .has-dropdown estiver ativo, abre */
-    .has-dropdown.is-open > .dropdown{
-      display:block;
-    }
-
-    /* só pra dar uma sinalizada visual que é clicável no mobile */
-    .has-dropdown > a{
-      display:flex;
+      display:inline-flex;
       align-items:center;
-      justify-content:space-between;
-      gap:.5rem;
+      gap:.4rem;
     }
-    .has-dropdown > a .caret{
-      width:10px;
-      height:10px;
-      border-right:2px solid #475569;
-      border-bottom:2px solid #475569;
-      transform:rotate(45deg);
-      transition:transform .2s ease;
-    }
-    .has-dropdown.is-open > a .caret{
-      transform:rotate(225deg);
+    .nav-list > li > a:hover{
+      color:#fff;
+      text-decoration:underline;
     }
 
-    /* CTA no mobile = botão cheio ocupando largura total */
-    .call-cta.btn{
+    .has-dropdown{ position:relative; }
+    .has-dropdown > .dropdown{
+      position:absolute;
+      top:100%;
+      left:0;
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:8px;
+      padding:.5rem .75rem;
+      list-style:none;
+      min-width:180px;
+      box-shadow:0 20px 40px rgba(0,0,0,.08);
+      display:none;
+      z-index:2000;
+    }
+    .has-dropdown:hover > .dropdown{ display:block; }
+    .has-dropdown > .dropdown li a{
+      color:#0f172a;
+      font-weight:500;
+      text-decoration:none;
       display:block;
-      width:100%;
-      text-align:center;
-      margin-top:1rem;
-      font-size:1rem;
+      padding:.4rem 0;
+    }
+    .has-dropdown > .dropdown li a:hover{ text-decoration:underline; }
+
+    .call-cta.btn{
+      white-space:nowrap;
       font-weight:700;
-      background:#5a1c2e;
-      border-color:#5a1c2e;
-      color:#fff !important;
-      box-shadow:0 8px 24px rgba(0,0,0,.18);
+      line-height:1.2;
+      background:#fff;
+      color:#C16E7A !important;
+      border:2px solid #C16E7A;
+      border-radius:999px;
+      box-shadow:0 4px 10px rgba(0,0,0,.08);
+      padding:12px 20px;
+      text-decoration:none;
+      display:inline-block;
+      transition:all .25s ease;
     }
     .call-cta.btn:hover{
-      background:#4a1726;
-      border-color:#4a1726;
+      background:#A15363;
       color:#fff !important;
+      border-color:#A15363;
+      text-decoration:none;
+      box-shadow:0 8px 20px rgba(0,0,0,.18);
     }
-  }
 
-  /* ================= HERO ajustes mobile ================= */
-  @media(max-width:768px){
-    .hero-content{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      text-align:center;
-      max-width:600px;
-      margin:0 auto;
-      padding:1.5rem 1rem 2rem;
-      position:relative;
-      z-index:2;
+    @media(max-width:768px){
+      .container.header{ align-items:flex-start; }
+      .nav-toggle{ display:block; order:2; min-width:44px; min-height:44px; }
+
+      #site-nav.nav{
+        order:3;
+        flex-direction:column;
+        width:100%;
+        border:1px solid #e5e7eb;
+        border-radius:12px;
+        padding:1rem;
+        background:#fff;
+        box-shadow:0 18px 32px rgba(0,0,0,.08);
+        display:none;
+        position:static;
+        max-height:70vh;
+        overflow-y:auto;
+      }
+      #site-nav.nav.is-open{ display:flex; }
+
+      .nav-list{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:.75rem;
+        width:100%;
+      }
+      .nav-list > li > a{
+        color:#0f172a;
+        font-weight:600;
+        font-size:1rem;
+        padding:.5rem 0;
+        width:100%;
+        justify-content:space-between;
+      }
+
+      .has-dropdown > .dropdown{
+        position:static;
+        border:none;
+        border-radius:0;
+        box-shadow:none;
+        padding:0 .75rem .5rem;
+        display:none;
+        background:#fff;
+        min-width:auto;
+      }
+      .has-dropdown.is-open > .dropdown{ display:block; }
+
+      .has-dropdown > a{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:.5rem;
+      }
+      .has-dropdown > a .caret{
+        width:10px;
+        height:10px;
+        border-right:2px solid #475569;
+        border-bottom:2px solid #475569;
+        transform:rotate(45deg);
+        transition:transform .2s ease;
+      }
+      .has-dropdown.is-open > a .caret{ transform:rotate(225deg); }
+
+      .call-cta.btn{
+        display:block;
+        width:100%;
+        text-align:center;
+        margin-top:1rem;
+        font-size:1rem;
+        font-weight:700;
+        background:#5a1c2e;
+        border-color:#5a1c2e;
+        color:#fff !important;
+        box-shadow:0 8px 24px rgba(0,0,0,.18);
+      }
+      .call-cta.btn:hover{
+        background:#4a1726;
+        border-color:#4a1726;
+        color:#fff !important;
+      }
     }
-    .hero-title{
-      font-size:1.4rem;
-      line-height:1.25;
-      font-weight:800;
-      color:#fff;
-      text-shadow:0 2px 6px rgba(0,0,0,.5);
-      margin:0 0 .5rem;
-    }
-    .hero-sub{
-      font-size:.9rem;
-      line-height:1.4;
-      color:#fff;
-      font-weight:500;
-      margin:0 0 1rem;
-      text-shadow:0 2px 4px rgba(0,0,0,.4);
-    }
-    .hero-cta{
-      width:100%;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:.5rem;
-    }
-    .hero-cta .btn-pill{
-      width:100%;
-      max-width:320px;
-      text-align:center;
-      font-size:1rem;
-      font-weight:700;
-      background:#5a1c2e;
-      border:2px solid #5a1c2e;
-      color:#fff;
-      box-shadow:0 8px 24px rgba(0,0,0,.4);
-    }
-    .hero-cta .btn-pill:focus{
-      outline:2px solid #fff;
-      outline-offset:2px;
-    }
-    .hero-cta .subcall{
-      font-size:.8rem;
-      line-height:1.4;
-      color:#fff;
-      text-shadow:0 2px 4px rgba(0,0,0,.4);
-    }
-    .dots{
-      display:flex;
-      gap:.4rem;
-      justify-content:center;
-      margin-top:1rem;
-    }
-    .dot{
-      width:8px;
-      height:8px;
+
+    /* ================= PAGE ================= */
+    body{
+      font-family: system-ui, Arial, sans-serif;
       background:#fff;
-      opacity:.4;
-      border-radius:999px;
-      border:none;
+      color:#0f172a;
+      margin:0;
+      line-height:1.6;
     }
-    .dot.active{
-      opacity:1;
-    }
-    .trust-badges{
-      position:static;
-      background:rgba(0,0,0,.4);
-      color:#fff;
-      font-size:.7rem;
-      line-height:1.3;
-      border-radius:8px;
-      padding:.5rem .6rem;
-      text-align:center;
-      box-shadow:0 8px 24px rgba(0,0,0,.5);
-      margin:1rem auto 0;
-      display:flex;
-      flex-wrap:wrap;
-      justify-content:center;
-      gap:.5rem;
-      max-width:320px;
-    }
-  }
 
-  /* ================= WHY US / VIDEO mobile ================= */
-  @media(max-width:768px){
-    .video-grid{
-      display:flex;
-      flex-direction:column;
-      gap:1rem;
+    .skip-link{
+      position:absolute;
+      left:-999px;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
     }
-    .video-text p{
-      font-size:.95rem;
-      line-height:1.45;
+    .skip-link:focus{
+      left:16px;
+      top:16px;
+      width:auto;
+      height:auto;
+      background:#fff;
+      color:#0f172a;
+      padding:10px 12px;
+      border-radius:10px;
+      box-shadow:0 10px 24px rgba(0,0,0,.15);
+      z-index:10000;
     }
-  }
 
-  /* ================= WHY CHOOSE US -> carrossel mobile ================= */
-  @media(max-width:480px){
-    .benefits-right{
-      overflow-x:auto;
-      -webkit-overflow-scrolling:touch;
-      scroll-snap-type:x mandatory;
-      display:flex;
-      flex-direction:row;
-      gap:16px;
-      padding-bottom:8px;
+    main{
+      max-width:900px;
+      margin:60px auto;
+      padding:0 20px 60px;
     }
-    .benefit-card{
-      min-width:85%;
-      flex-shrink:0;
-      scroll-snap-align:center;
-      border-radius:16px;
-      box-shadow:0 12px 28px rgba(0,0,0,.08);
-      border:1px solid rgba(0,0,0,.05);
-    }
-  }
 
-  /* ================= SERVICES ================= */
-  .cswp-section{
-    background:var(--cswp-bg,#ffffff);
-    padding:56px 16px;
-  }
-  .cswp-container{
-    max-width:1100px;
-    margin:0 auto;
-  }
-  .cswp-title{
-    text-align:center;
-    color:var(--cswp-accent,#e11d48);
-    font-size:clamp(28px,4vw,40px);
-    font-weight:800;
-    letter-spacing:.2px;
-    margin:0 0 10px;
-  }
-  .cswp-intro{
-    text-align:center;
-    color:var(--cswp-muted,#475569);
-    max-width:820px;
-    margin:0 auto 28px;
-    line-height:1.65;
-    font-size:clamp(14px,2.2vw,16px);
-  }
-
-  .cswp-grid{
-    display:grid;
-    gap:16px;
-    grid-template-columns: repeat(1,minmax(0,1fr));
-  }
-  @media(min-width:640px){
-    .cswp-grid{ grid-template-columns: repeat(2,minmax(0,1fr)); }
-  }
-  @media(min-width:960px){
-    .cswp-grid{ grid-template-columns: repeat(3,minmax(0,1fr)); }
-  }
-
-  .cswp-card{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-    background:var(--cswp-card,#f8fafc);
-    border-radius:20px;
-    padding:28px 18px;
-    min-height:180px;
-    color:var(--cswp-text,#0f172a);
-    border:1px solid #e5e7eb;
-    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-  }
-  .cswp-card:hover{
-    transform:translateY(-3px);
-    box-shadow:0 10px 24px rgba(0,0,0,.08);
-    border-color:#f1a1b2;
-  }
-  .cswp-icon{
-    width:72px;
-    height:72px;
-    margin-bottom:12px;
-    color:var(--cswp-accent,#e11d48);
-  }
-  .cswp-icon svg{
-    width:100%;
-    height:100%;
-    display:block;
-  }
-  .cswp-label{
-    font-weight:700;
-    text-align:center;
-    font-size:16px;
-  }
-  .cswp-card:focus{
-    outline:none;
-    box-shadow:0 0 0 4px var(--cswp-ring,#e11d48)/20;
-  }
-
-  /* carrossel mobile dos serviços também */
-  @media(max-width:480px){
-    .cswp-grid{
-      display:flex;
-      overflow-x:auto;
-      -webkit-overflow-scrolling:touch;
-      scroll-snap-type:x mandatory;
-      gap:16px;
-      padding-bottom:8px;
+    h1{
+      color:#e11d48;
+      font-size:clamp(26px, 4vw, 34px);
+      margin-bottom:10px;
     }
-    .cswp-card{
-      min-width:80%;
-      flex-shrink:0;
-      scroll-snap-align:start;
-      box-shadow:0 12px 28px rgba(0,0,0,.08);
-    }
-  }
 
-  /* ================= BLOG/TIPS CAROUSEL mobile ================= */
-  @media(max-width:480px){
-    .lp-grid{
-      display:flex;
-      overflow-x:auto;
-      -webkit-overflow-scrolling:touch;
-      scroll-snap-type:x mandatory;
-      gap:16px;
-      padding-bottom:8px;
+    p{ color:#475569; margin-bottom:18px; }
+
+    form{
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:20px;
+      padding:32px;
+      box-shadow:0 8px 24px rgba(0,0,0,.06);
     }
-    .lp-card{
-      min-width:85%;
-      flex-shrink:0;
-      scroll-snap-align:center;
-      box-shadow:0 12px 28px rgba(0,0,0,.08);
-      border:1px solid rgba(0,0,0,.05);
-      border-radius:16px;
+
+    .form-grid{
+      display:grid;
+      gap:20px;
+      grid-template-columns:1fr;
     }
-    .lp-media img{
-      object-fit:cover;
+    @media (min-width:768px){
+      .form-grid{ grid-template-columns:1fr 1fr; }
+      .form-grid .full{ grid-column:1 / -1; }
+    }
+
+    label{
+      font-weight:600;
+      color:#0f172a;
+      display:block;
+      margin-bottom:6px;
+    }
+
+    input, textarea, select{
       width:100%;
-      aspect-ratio:16/9;
-      background:#f8fafc;
-    }
-  }
-
-  /* ================= FAQ ================= */
-  .faq-section{
-    background:#fff;
-    border:1px solid #e5e7eb;
-    border-radius:20px;
-    padding:28px;
-    margin:28px auto 0;
-    max-width:1100px;
-    box-shadow:0 8px 18px rgba(0,0,0,.04);
-  }
-  .faq-head h2{
-    color:#e11d48;
-    font-size:clamp(24px,3.2vw,32px);
-    margin:0 0 6px;
-    font-weight:800;
-    letter-spacing:.2px;
-  }
-  .faq-head p{
-    color:#475569;
-    margin:0 0 12px;
-  }
-  .faq-grid{
-    display:grid;
-    gap:12px;
-    margin-top:8px;
-    grid-template-columns:1fr;
-  }
-  .faq-item{
-    background:#fff;
-    border:1px solid #e5e7eb;
-    border-radius:14px;
-    padding:0 14px;
-    transition:box-shadow .2s ease,border-color .2s ease;
-  }
-  .faq-item[open]{
-    border-color:#f1a1b2;
-    box-shadow:0 6px 16px rgba(0,0,0,.05);
-  }
-
-  .faq-q{
-    cursor:pointer;
-    font-weight:700;
-    color:#0f172a;
-    padding:14px 6px;
-    list-style:none;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    font-size:1rem;
-    line-height:1.4;
-    min-height:44px;
-  }
-  .faq-q::-webkit-details-marker{
-    display:none;
-  }
-
-  .faq-a{
-    color:#334155;
-    padding:0 6px 14px;
-    border-top:1px dashed #e5e7eb;
-  }
-  .faq-a p{
-    margin:12px 0 0;
-    line-height:1.65;
-  }
-  .faq-cta{
-    margin:16px 6px 0;
-    color:#0f172a;
-    font-weight:600;
-    text-align:center;
-  }
-  .faq-call{
-    background:#e11d48;
-    color:#fff;
-    padding:10px 14px;
-    border-radius:999px;
-    text-decoration:none;
-    margin-left:6px;
-    display:inline-block;
-    font-weight:800;
-    box-shadow:0 8px 24px rgba(0,0,0,.18);
-  }
-  .faq-call:hover{
-    background:#c8103f;
-  }
-
-  @media(max-width:768px){
-    .faq-q{
-      font-size:1rem;
-      padding:14px 4px;
-    }
-    .faq-a{
-      font-size:.95rem;
-      line-height:1.5;
-    }
-  }
-
-  /* ================= COVERAGE MAP mobile tweaks ================= */
-  @media(max-width:768px){
-    .covmap{
-      border-radius:16px;
-      padding:16px;
-    }
-    #map{
-      height:320px;
-    }
-    .addr-form{
-      flex-direction:column;
-      align-items:stretch;
-    }
-    .addr-form input{
-      min-width:100%;
-      max-width:100%;
+      padding:12px;
+      border:1px solid #d1d5db;
+      border-radius:10px;
       font-size:16px;
+      transition:border-color .2s;
     }
-    .addr-form button{
-      width:100%;
-      text-align:center;
-    }
-    .addr-form .gps{
-      width:100%;
-    }
-  }
 
-  /* ================= CTA BUTTONS ================= */
-  @media(max-width:768px){
-    .cta-grid{
-      display:flex;
-      flex-direction:column;
-      gap:.75rem;
+    input:focus, textarea:focus, select:focus{
+      outline:none;
+      border-color:#e11d48;
+      box-shadow:0 0 0 3px rgba(225, 29, 72, .15);
     }
-    .cta-grid .btn{
-      width:100%;
-      text-align:center;
-      font-size:1rem;
+
+    textarea{ min-height:120px; resize:vertical; }
+
+    .captcha-row{
+      margin-top:14px;
+      display:flex;
+      justify-content:flex-start;
+      align-items:flex-start;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    button{
+      background:#e11d48;
+      color:#fff;
+      border:none;
+      padding:14px 24px;
+      border-radius:999px;
+      font-weight:700;
+      font-size:16px;
+      cursor:pointer;
+      transition:background .2s ease;
+      margin-top:14px;
+    }
+    button:hover{ background:#c8103f; }
+    button:disabled{ opacity:.75; cursor:not-allowed; }
+
+    .privacy-note{
+      margin-top:12px;
+      font-size:.92rem;
+      color:#64748b;
+    }
+    .privacy-note a{
+      color:#e11d48;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .privacy-note a:hover{ text-decoration:underline; }
+
+    .contact-info{
+      margin-top:40px;
+      background:#fdf2f8;
+      border:1px solid #fbcfe8;
+      border-radius:16px;
+      padding:24px;
+    }
+    .contact-info h2{
+      color:#e11d48;
+      margin-bottom:12px;
+    }
+    .contact-info p{
+      margin:6px 0;
+      color:#334155;
+    }
+    .contact-info a{
+      color:#e11d48;
+      text-decoration:none;
       font-weight:600;
     }
-  }
+    .contact-info a:hover{ text-decoration:underline; }
 
-  /* ================= FOOTER mobile columns ================= */
-  @media(max-width:768px){
-    .footer-grid{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:1.5rem;
+    .form-alert{
+      margin-top:16px;
+      padding:12px 16px;
+      border-radius:12px;
+      font-weight:500;
+      display:none;
     }
-    .footer-col h3{
-      margin-bottom:.5rem;
+    .form-alert.success{
+      background:#ecfdf3;
+      color:#166534;
+      border:1px solid #bbf7d0;
+      display:block;
     }
-    .footer-col ul li a{
-      font-size:.95rem;
-      line-height:1.4;
+    .form-alert.error{
+      background:#fef2f2;
+      color:#b91c1c;
+      border:1px solid #fecaca;
+      display:block;
     }
-    .footer-badges{
-      flex-wrap:wrap;
-      gap:.5rem;
-    }
-    .footline,
-    .disclaimer,
-    .tagline{
-      text-align:center;
-    }
-    .footer-brand{
-      text-align:center;
-    }
-    .footer-phone,
-    .footer-email,
-    .footer-address{
-      margin:.25rem 0;
-      font-size:.95rem;
-      line-height:1.4;
-    }
-  }
-</style>
-
+  </style>
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
 
@@ -855,7 +460,7 @@
   <header class="topbar" role="banner">
     <div class="container header">
       <a class="brand" href="index.html" aria-label="Thalita’s Cleaning - Home" rel="home">
-        <img src="assets/img/logo.png" alt="Thalita’s Cleaning logo" class="logo" width="240" height="70" loading="eager" />
+        <img src="images/logo.png" alt="Thalita’s Cleaning logo" class="logo" width="240" height="70" loading="eager" />
       </a>
 
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
@@ -864,7 +469,6 @@
 
       <nav id="site-nav" class="nav" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement">
         <ul role="list" class="nav-list">
-          <!-- About Us (submenu) -->
           <li class="has-dropdown">
             <a href="who-we-are.html" aria-haspopup="true" aria-expanded="false">
               <span>About Us</span><span class="caret" aria-hidden="true"></span>
@@ -876,7 +480,7 @@
           </li>
 
           <li class="has-dropdown">
-            <a itemprop="url" href="#services" aria-haspopup="true" aria-expanded="false">
+            <a itemprop="url" href="index.html#services" aria-haspopup="true" aria-expanded="false">
               <span itemprop="name">Services</span><span class="caret" aria-hidden="true"></span>
             </a>
             <ul class="dropdown" role="menu" aria-label="Services submenu">
@@ -887,7 +491,7 @@
           </li>
 
           <li class="has-dropdown">
-            <a itemprop="url" href="#tips" aria-haspopup="true" aria-expanded="false">
+            <a itemprop="url" href="index.html#tips" aria-haspopup="true" aria-expanded="false">
               <span itemprop="name">Tips</span><span class="caret" aria-hidden="true"></span>
             </a>
             <ul class="dropdown" role="menu" aria-label="Tips submenu">
@@ -907,183 +511,40 @@
     </div>
   </header>
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request a Free Estimate | Thalita’s Cleaning LLC</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    body {
-      font-family: system-ui, Arial, sans-serif;
-      background: #fff;
-      color: #0f172a;
-      margin: 0;
-      line-height: 1.6;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 60px auto;
-      padding: 0 20px 60px;
-    }
-
-    h1 {
-      color: #e11d48;
-      font-size: clamp(26px, 4vw, 34px);
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #475569;
-      margin-bottom: 25px;
-    }
-
-    form {
-      background: #fff;
-      border: 1px solid #e5e7eb;
-      border-radius: 20px;
-      padding: 32px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-    }
-
-    .form-grid {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: 1fr;
-    }
-
-    @media (min-width: 768px) {
-      .form-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-      .form-grid .full {
-        grid-column: 1 / -1;
-      }
-    }
-
-    label {
-      font-weight: 600;
-      color: #0f172a;
-      display: block;
-      margin-bottom: 6px;
-    }
-
-    input, textarea, select {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #d1d5db;
-      border-radius: 10px;
-      font-size: 16px;
-      transition: border-color 0.2s;
-    }
-
-    input:focus, textarea:focus, select:focus {
-      outline: none;
-      border-color: #e11d48;
-      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.15);
-    }
-
-    textarea {
-      min-height: 120px;
-      resize: vertical;
-    }
-
-    button {
-      background: #e11d48;
-      color: #fff;
-      border: none;
-      padding: 14px 24px;
-      border-radius: 999px;
-      font-weight: 700;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background 0.2s ease;
-      margin-top: 10px;
-    }
-
-    button:hover {
-      background: #c8103f;
-    }
-
-    .contact-info {
-      margin-top: 40px;
-      background: #fdf2f8;
-      border: 1px solid #fbcfe8;
-      border-radius: 16px;
-      padding: 24px;
-    }
-
-    .contact-info h2 {
-      color: #e11d48;
-      margin-bottom: 12px;
-    }
-
-    .contact-info p {
-      margin: 6px 0;
-      color: #334155;
-    }
-
-    .contact-info a {
-      color: #e11d48;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-
-    .form-alert {
-      margin-top: 16px;
-      padding: 12px 16px;
-      border-radius: 12px;
-      font-weight: 500;
-      display: none;
-    }
-    .form-alert.success {
-      background: #ecfdf3;
-      color: #166534;
-      border: 1px solid #bbf7d0;
-      display: block;
-    }
-    .form-alert.error {
-      background: #fef2f2;
-      color: #b91c1c;
-      border: 1px solid #fecaca;
-      display: block;
-    }
-  </style>
-</head>
-<body>
-  <main>
+  <main id="main">
     <h1>Request a Free Estimate</h1>
     <p>Fill out the form below and our team will contact you shortly with a personalized quote. We respond within 24 hours!</p>
 
-    <!-- 1) TROQUE "YOUR_FORM_ID" PELO ID REAL DO FORMSPREE -->
-    <form id="estimate-form" action="https://formspree.io/f/xldoogpg" method="POST">
+    <!-- Formspree endpoint -->
+    <form id="estimate-form" action="https://formspree.io/f/xldoogpg" method="POST" novalidate>
+      <!-- Honeypot (anti-bot) -->
+      <div class="sr-only" aria-hidden="true">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+      </div>
+
+      <!-- Timestamp (anti-bot) -->
+      <input type="hidden" id="ts" name="_ts" value="">
+
       <div class="form-grid">
         <div>
           <label for="name">Full Name *</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name" required maxlength="80" autocomplete="name">
         </div>
 
         <div>
           <label for="email">Email *</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" required maxlength="120" autocomplete="email">
         </div>
 
         <div>
           <label for="phone">Phone *</label>
-          <input type="tel" id="phone" name="phone" placeholder="(774) 581-8037" required>
+          <input type="tel" id="phone" name="phone" placeholder="(774) 581-8037" required maxlength="30" autocomplete="tel">
         </div>
 
         <div>
           <label for="address">Address</label>
-          <input type="text" id="address" name="address" placeholder="Street, City, ZIP">
+          <input type="text" id="address" name="address" placeholder="Street, City, ZIP" maxlength="160" autocomplete="street-address">
         </div>
 
         <div class="full">
@@ -1101,12 +562,24 @@
 
         <div class="full">
           <label for="message">Additional Details</label>
-          <textarea id="message" name="message" placeholder="Tell us about your home, size, and preferred schedule..."></textarea>
+          <textarea id="message" name="message" placeholder="Tell us about your home, size, and preferred schedule..." maxlength="1000"></textarea>
+        </div>
+
+        <!-- CAPTCHA -->
+        <div class="full">
+          <label class="sr-only" for="captcha">Captcha</label>
+          <div class="captcha-row">
+            <div class="h-captcha" data-sitekey="d3946b22-4e1c-4f44-a1b8-2cee2268bf62"></div>
+          </div>
+          <p class="privacy-note" style="margin-top:10px;">
+            By submitting, you agree we may contact you about your request. See our
+            <a href="policy.html">Privacy Policy</a>.
+          </p>
         </div>
       </div>
 
       <button type="submit" id="submit-btn">Send My Request</button>
-      <div id="form-alert" class="form-alert"></div>
+      <div id="form-alert" class="form-alert" role="status" aria-live="polite"></div>
     </form>
 
     <div class="contact-info">
@@ -1114,70 +587,18 @@
       <p><strong>Phone:</strong> <a href="tel:+17745818037">(774) 581-8037</a></p>
       <p><strong>Phone:</strong> <a href="tel:+17745207848">(774) 520-7848</a></p>
       <p><strong>Email:</strong> <a href="mailto:cleaningthalitas@gmail.com">cleaningthalitas@gmail.com</a></p>
-      <p><strong>Service Areas:</strong> Greater Boston, MetroWest, Middlesex & Norfolk Counties, MA.</p>
+      <p><strong>Service Areas:</strong> Greater Boston, MetroWest, Middlesex &amp; Norfolk Counties, MA.</p>
     </div>
   </main>
 
-  <script>
-    const form = document.getElementById('estimate-form');
-    const alertBox = document.getElementById('form-alert');
-    const submitBtn = document.getElementById('submit-btn');
-
-    form.addEventListener('submit', async function (e) {
-      e.preventDefault();
-
-      alertBox.className = 'form-alert';
-      alertBox.style.display = 'none';
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
-
-      try {
-        const formData = new FormData(form);
-        // opcional: acrescentar info fixa
-        formData.append('source', 'thalitas-cleaning-website');
-
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: formData,
-          headers: {
-            'Accept': 'application/json'
-          }
-        });
-
-        if (response.ok) {
-          form.reset();
-          alertBox.textContent = 'Thank you! Your request has been sent. We will contact you soon.';
-          alertBox.classList.add('success');
-          alertBox.style.display = 'block';
-        } else {
-          const data = await response.json();
-          throw new Error(data.error || 'There was a problem sending your request.');
-        }
-      } catch (err) {
-        alertBox.textContent = 'Oops, something went wrong. Please try again or call (774) 581-8037.';
-        alertBox.classList.add('error');
-        alertBox.style.display = 'block';
-      } finally {
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Send My Request';
-      }
-    });
-  </script>
-</body>
-</html>
-
-
-
-  <!-- ================= BRAND DIVIDER ================= -->
+  <!-- ================= FOOTER ================= -->
   <div class="footer-divider" aria-hidden="true"></div>
 
-  <!-- ================= FOOTER ================= -->
   <footer class="footer visible" role="contentinfo" aria-label="Footer">
     <div class="container footer-grid">
       <section class="footer-brand" aria-labelledby="footer-brand-h">
         <h2 id="footer-brand-h" class="sr-only"></h2>
-        <img src="assets/img/logo2.png" alt="Thalita’s Cleaning" class="footer-logo" width="180" height="52" loading="lazy">
+        <img src="images/logo2.png" alt="Thalita’s Cleaning" class="footer-logo" width="180" height="52" loading="lazy">
         <p class="footer-phone"><a href="tel:+17745818037" aria-label="Call Thalita’s Cleaning">(774) 581-8037</a></p>
         <p class="footer-email"><a href="mailto:cleaningthalitas@gmail.com">cleaningthalitas@gmail.com</a></p>
         <address class="footer-address">
@@ -1231,7 +652,7 @@
           <li><a href="who-we-are.html">About Us</a></li>
           <li><a href="index.html#reviews">Reviews</a></li>
           <li><a href="index.html#coverage-area">Coverage Area</a></li>
-          <li><a class="footer-cta" href="#faq">FAQ</a></li>
+          <li><a class="footer-cta" href="index.html#faq">FAQ</a></li>
         </ul>
       </nav>
 
@@ -1255,9 +676,129 @@
     </div>
   </footer>
 
-  <!-- ================= JS PRINCIPAL ================= -->
-  <script src="assets/js/script.js" defer></script>
+  <!-- ================= JS: NAV + FORM (CAPTCHA + ANTISPAM) ================= -->
+  <script>
+    // ================= NAV MOBILE (alinhado com seu padrão) =================
+    (function () {
+      const btn = document.querySelector('.nav-toggle');
+      const nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+
+      btn.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+        document.body.classList.toggle('no-scroll', isOpen);
+      });
+
+      // dropdown mobile (abre ao clicar no item)
+      document.querySelectorAll('.has-dropdown > a').forEach(a => {
+        a.addEventListener('click', (e) => {
+          if (window.matchMedia('(max-width: 768px)').matches) {
+            e.preventDefault();
+            a.parentElement.classList.toggle('is-open');
+          }
+        });
+      });
+    })();
+
+    // ================= FORM SUBMIT (Formspree + hCaptcha + honeypot) =================
+    (function () {
+      const form = document.getElementById('estimate-form');
+      const alertBox = document.getElementById('form-alert');
+      const submitBtn = document.getElementById('submit-btn');
+      const honey = document.getElementById('company');
+      const tsField = document.getElementById('ts');
+
+      if (!form || !alertBox || !submitBtn) return;
+
+      // timestamp anti-bot
+      const loadedAt = Date.now();
+      if (tsField) tsField.value = String(loadedAt);
+
+      function showAlert(type, msg) {
+        alertBox.className = 'form-alert ' + type;
+        alertBox.textContent = msg;
+        alertBox.style.display = 'block';
+      }
+
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        alertBox.className = 'form-alert';
+        alertBox.style.display = 'none';
+
+        // honeypot
+        if (honey && honey.value.trim() !== '') {
+          return; // silencioso
+        }
+
+        // tempo mínimo (bots enviam instantâneo)
+        const elapsed = Date.now() - loadedAt;
+        if (elapsed < 3000) {
+          showAlert('error', 'Please wait a moment and try again.');
+          return;
+        }
+
+        // CAPTCHA obrigatório
+        const hasHcaptcha = typeof window.hcaptcha !== 'undefined';
+        if (!hasHcaptcha) {
+          showAlert('error', 'Captcha failed to load. Please refresh the page and try again.');
+          return;
+        }
+
+        const token = window.hcaptcha.getResponse();
+        if (!token) {
+          showAlert('error', 'Please complete the captcha before sending.');
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        try {
+          const formData = new FormData(form);
+
+          // info extra (opcional)
+          formData.append('source', 'thalitas-cleaning-website');
+          formData.append('page', 'contact-us');
+
+          // o token do hCaptcha já vai no formData automaticamente (h-captcha-response),
+          // mas garantimos aqui também:
+          formData.set('h-captcha-response', token);
+
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            form.reset();
+            try { window.hcaptcha.reset(); } catch (_) {}
+            showAlert('success', 'Thank you! Your request has been sent. We will contact you soon.');
+          } else {
+            let data = null;
+            try { data = await response.json(); } catch (_) {}
+            const msg = (data && (data.error || data.message)) ? (data.error || data.message) : 'There was a problem sending your request.';
+            throw new Error(msg);
+          }
+        } catch (err) {
+          showAlert('error', 'Oops, something went wrong. Please try again or call (774) 581-8037.');
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send My Request';
+        }
+      });
+    })();
+
+    // ================= YEAR =================
+    (function () {
+      const y = document.getElementById('year');
+      if (y) y.textContent = String(new Date().getFullYear());
+    })();
+  </script>
+
+  <!-- Se você já tem script.js global e quer manter, pode deixar este também: -->
+  <script src="script.js" defer></script>
 </body>
 </html>
-
-
