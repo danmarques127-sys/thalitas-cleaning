@@ -4,11 +4,27 @@
 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FFFFFF,40:FFE2F0,85:FF5AA5,100:FFFFFF&height=160&section=header&text=CHANGELOG&fontSize=46&fontColor=111827&animation=fadeIn&fontAlignY=45&desc=Thalita%E2%80%99s%20Cleaning%20%E2%80%A2%20Release%20History&descAlignY=72&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,35:FFE2F0,70:FF5AA5,100:FFFFFF&height=240&section=header&text=Thalita%E2%80%99s%20Cleaning&fontSize=54&fontColor=111827&animation=fadeIn&fontAlignY=38&desc=Production%20static%20website%20%E2%80%A2%20SEO-first%20%E2%80%A2%20Performance-focused%20%E2%80%A2%20Accessibility-aware&descAlignY=64&descSize=18" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=900&color=FF5AA5&center=true&vCenter=true&width=820&lines=Production+releases+for+a+real-world+static+website.;Focused+on+SEO%2C+performance%2C+and+clean+delivery.;No+noise.+Only+meaningful+changes." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=900&color=FF5AA5&center=true&vCenter=true&width=980&lines=Client-grade+static+site+for+a+real+cleaning+business;Engineered+for+SEO%2C+speed%2C+and+reliability+on+Apache%2FcPanel;Pink+%26+White+theme+with+floral+presentation+for+GitHub;No+frameworks.+No+build+step.+Just+clean+delivery." />
+</p>
+
+<p align="center">
+  <a href="https://thalitascleaning.com"><img src="https://img.shields.io/badge/Production-Live-FF5AA5?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://danmarques127-sys.github.io/thalitas-cleaning/"><img src="https://img.shields.io/badge/GitHub%20Pages-Preview-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/danmarques127-sys"><img src="https://img.shields.io/badge/Author-DaNgelo%20Marques-FFFFFF?style=for-the-badge&logo=github&logoColor=FF5AA5" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Theme-Pink%20%26%20White-FFE2F0?style=for-the-badge&labelColor=FF5AA5&color=FFE2F0" />
+  <img src="https://img.shields.io/badge/Brand-Floral%20Identity-FFFFFF?style=for-the-badge&labelColor=FF5AA5&color=FFFFFF" />
+  <img src="https://img.shields.io/badge/Hosting-Apache%20%2F%20cPanel-111827?style=for-the-badge&logo=apache&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:FF5AA5,100:FFFFFF&height=2&section=header" />
 </p>
 
 ---
