@@ -56,14 +56,15 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js" />
-  <img alt="Apache" src="https://img.shields.io/badge/Apache-.htaccess-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,apache" />
+  <img src="https://img.shields.io/badge/HTTPS-Secure-22C55E?style=for-the-badge&logo=letsencrypt&logoColor=white" />
 </p>
 
-- **HTML5** — semantic structure for SEO + accessibility  
+- **HTML5** — semantic structure for SEO & accessibility  
 - **CSS3** — responsive layout and UI components  
 - **Vanilla JavaScript** — lightweight interactions only  
-- **Apache `.htaccess`** — caching + static hosting behavior  
+- **Apache (.htaccess)** — caching, routing, and static hosting behavior  
+- **HTTPS (SSL)** — secure transport and production-ready deployment  
 
 ---
 
@@ -88,3 +89,44 @@
 ├── .htaccess
 ├── index.html
 └── *.html
+
+---
+
+## 🚀 Deployment
+
+### GitHub Pages (Preview)
+1. Repo → **Settings** → **Pages**  
+2. Source: **Deploy from a branch**  
+3. Branch: `main` • Folder: `/ (root)`  
+4. Save → wait for the Pages URL  
+
+### cPanel / Apache (Production)
+1. Upload files to `public_html/` (or your domain root)  
+2. Ensure `.htaccess` is included (Apache must allow overrides)  
+3. Confirm `/seo/robots.txt` and `/seo/sitemap.xml` are accessible  
+4. Validate internal links and assets on the live domain  
+
+---
+
+## 🗄️ Cache Policy (2 lines)
+
+- Static assets (CSS/JS/images/icons) are cached aggressively for repeat visits.  
+- HTML is cached shorter to prevent stale pages after content updates.  
+
+---
+
+## 📄 License (conscious choice)
+
+**All Rights Reserved** — This is a real client-grade production website repository.  
+No reuse, redistribution, or modification is allowed without explicit permission.
+
+---
+
+## 👤 Author
+
+**DaNgelo Marques**  
+GitHub: https://github.com/danmarques127-sys
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,60:FF5AA5,100:FFFFFF&height=120&section=footer" />
+</p>
