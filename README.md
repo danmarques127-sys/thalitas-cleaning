@@ -124,9 +124,10 @@ No reuse, redistribution, or modification is allowed without explicit permission
 
 ## 👤 Author
 
-**DaNgelo Marques**  
+**Dangelo Marques**  
 GitHub: https://github.com/danmarques127-sys
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,60:FF5AA5,100:FFFFFF&height=120&section=footer" />
 </p>
+
