@@ -43,7 +43,7 @@
 
 ---
 
-## ✨ Features (3–6)
+## ✨ Features
 
 - **Multi-page static site** with consistent navigation and predictable routes
 - **SEO-first** structure (semantic HTML, meta/OG tags, robots + sitemap, clean internal linking)
@@ -100,11 +100,15 @@
 3. Branch: `main` • Folder: `/ (root)`  
 4. Save → wait for the Pages URL  
 
-### cPanel / Apache (Production)
-1. Upload files to `public_html/` (or your domain root)  
-2. Ensure `.htaccess` is included (Apache must allow overrides)  
-3. Confirm `/seo/robots.txt` and `/seo/sitemap.xml` are accessible  
-4. Validate internal links and assets on the live domain  
+### Production Deployment (Apache / cPanel)
+
+The website is deployed on an Apache server with support for `.htaccess`
+rules for caching, routing, and security headers.
+
+Production environment considerations:
+- Server must allow `.htaccess` overrides
+- SEO assets (robots.txt, sitemap.xml) are publicly accessible
+- All internal links and assets are validated post-deployment 
 
 ---
 
@@ -130,4 +134,5 @@ GitHub: https://github.com/danmarques127-sys
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,60:FF5AA5,100:FFFFFF&height=120&section=footer" />
 </p>
+
 
