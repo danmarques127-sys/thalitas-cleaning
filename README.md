@@ -32,7 +32,7 @@
 
 **Thalita’s Cleaning** — a production-ready static website for a real cleaning company, built with an **SEO-first**, **performance-focused**, and **accessibility-aware** mindset.
 
-> Built and maintained by **DaNgelo Marques** (GitHub: https://github.com/danmarques127-sys)
+> Built and maintained by **Dangelo Marques** (GitHub: https://github.com/danmarques127-sys)
 
 ---
 
@@ -112,14 +112,14 @@ Production environment considerations:
 
 ---
 
-## 🗄️ Cache Policy (2 lines)
+## 🗄️ Cache Policy 
 
 - Static assets (CSS/JS/images/icons) are cached aggressively for repeat visits.  
 - HTML is cached shorter to prevent stale pages after content updates.  
 
 ---
 
-## 📄 License (conscious choice)
+## 📄 License 
 
 **All Rights Reserved** — This is a real client-grade production website repository.  
 No reuse, redistribution, or modification is allowed without explicit permission.
@@ -129,10 +129,12 @@ No reuse, redistribution, or modification is allowed without explicit permission
 ## 👤 Author
 
 **Dangelo Marques**  
+Software Engineer • Web Architecture • SEO-driven Systems  
 GitHub: https://github.com/danmarques127-sys
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,60:FF5AA5,100:FFFFFF&height=120&section=footer" />
 </p>
+
 
 
